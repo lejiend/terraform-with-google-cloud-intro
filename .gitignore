@@ -28,3 +28,8 @@ terraform.rc
 
 # OS files
 .DS_Store
+
+
+.terraform.lock.hcl
+
+

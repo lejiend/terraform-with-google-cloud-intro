@@ -21,7 +21,7 @@ resource "google_compute_instance" "vm_instance" {
             apt-get update
             apt-get install -y nginx
             systemctl start nginx
-            systemctl enable nginxx
+            systemctl enable nginx
         EOF
     }
 
